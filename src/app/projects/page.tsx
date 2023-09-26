@@ -68,7 +68,7 @@ export default function Projects(props: ProjectsProps) {
           <div>
             <a href="https://srareaper.github.io/dogs/">
               <img
-                src="/assets/imgs/dogs.png"
+                src="assets/imgs/dogs.png"
                 width="500px"
                 alt="image dogs"
                 className="rounded w-[500px] 2xl:w-[310px] 2xl:h-[250px]border-2 border-solid border-transparent hover:border-colorbtn cursor-pointer 2xl:hover:border-transparent "
@@ -88,7 +88,7 @@ export default function Projects(props: ProjectsProps) {
           <div>
             <a href="https://srareaper.github.io/animais-fantasticos/">
               <img
-                src="/assets/imgs/animaisf.png"
+                src="assets/imgs/animaisf.png"
                 width="500px"
                 alt="image animais fantásticos"
                 className="rounded w-[500px] 2xl:w-[310px] 2xl:h-[250px] border-2 border-solid border-transparent hover:border-colorbtn cursor-pointer 2xl:hover:border-transparent "
@@ -110,7 +110,7 @@ export default function Projects(props: ProjectsProps) {
           <div>
             <a href="https://srareaper.github.io/bikcraft/">
               <img
-                src="/assets/imgs/bikcraft.png"
+                src="assets/imgs/bikcraft.png"
                 width="500px"
                 alt="image bikcraft"
                 className="rounded w-[500px] 2xl:w-[310px] 2xl:h-[250px] relative -top-[2px] border-2 border-solid border-transparent hover:border-colorbtn cursor-pointer 2xl:hover:border-transparent"
@@ -135,7 +135,7 @@ export default function Projects(props: ProjectsProps) {
           <div>
             <a href="https://srareaper.github.io/minidogs/">
               <img
-                src="/assets/imgs/minidg.png"
+                src="assets/imgs/minidg.png"
                 alt="image minidogs"
                 width="500px"
                 className="rounded w-[500px] 2xl:w-[310px] 2xl:h-[250px] relative -top-[2px] border-2 border-solid border-transparent hover:border-colorbtn cursor-pointer 2xl:hover:border-transparent "
@@ -156,7 +156,7 @@ export default function Projects(props: ProjectsProps) {
           <div>
             <a href="https://srareaper.github.io/wildbeast/">
               <img
-                src="/assets/imgs/wildb.png"
+                src="assets/imgs/wildb.png"
                 alt="image wildbeast"
                 width="500px"
                 className="rounded w-[500px] 2xl:w-[310px] 2xl:h-[250px] relative -top-[2px] border-2 border-solid border-transparent hover:border-colorbtn cursor-pointer 2xl:hover:border-transparent "

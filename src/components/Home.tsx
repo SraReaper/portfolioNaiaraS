@@ -89,7 +89,7 @@ export default function Home(props: HomeProps) {
       <div className=" lg:flex grid grid-cols-1 grid-rows-none gap-10 pt-[80px] lg:mt-[80px] mb-0 lg:pt-[20px] xl:pt-[60px]  xl:justify-start lg:max-w-max justify-center">
         <span className="lg:bg-black w-32 h-72 md:absolute 2xl:-bottom-[170px] lg:-bottom-[170px] xl:-bottom-[170px] left-0 md:-z-10 mb-[130px] hidden lg:block"></span>
         <img
-          src="/assets/imgs/code.png"
+          src="assets/imgs/code.png"
           alt="imagem ilustrativa"
           className="w-[800px] sm:w-[600px] col-start-1 row-start-1 justify-center mx-auto"
           width={600}
