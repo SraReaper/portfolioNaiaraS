@@ -2,6 +2,7 @@ import InstagramIcon from '@/components/icons/Instagram-icon';
 import LinkedinIcon from '@/components/icons/Linkedin-icon';
 import ButtonIcon from '@/components/icons/button-icon';
 import GithubIcon from '@/components/icons/github-icon';
+import Link from 'next/link';
 
 interface ProjectsProps {}
 
@@ -9,7 +10,7 @@ export default function Projects(props: ProjectsProps) {
   return (
     <header>
       <main className="md:flex lg:grid lg:grid-cols-[repeat(3,1fr)] max-[552px]:grid-rows-2 max-[552px]:grid gap-[20px] pb-[20px] md:gap-0 md:justify-between flex flex-wrap">
-        <a
+        <Link
           href="/"
           className="row-start-1 row-end-2 font-serif font-bold lg:text-4xl text-3xl text-secondary "
         >
@@ -17,23 +18,23 @@ export default function Projects(props: ProjectsProps) {
           <span className="font-serif font-bold lg:text-4xl text-3xl text-primary ">
             S.
           </span>
-        </a>
+        </Link>
         <div className="flex lg:row-start-1 row-start-2 col-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
-          <a href="/capacities">
+          <Link href="capacities">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
             </button>
-          </a>
-          <a href="/projects">
+          </Link>
+          <Link href="projects">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Projects
             </button>
-          </a>
-          <a href="/aboutme">
+          </Link>
+          <Link href="aboutme">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               About me
             </button>
-          </a>
+          </Link>
         </div>
         <ul className="lg:ml-auto row-start-1 row-end-1 relative flex ml-auto col-start-3 w-max md:w-auto md:flex-col xl:p-4 p-2 xl:pb-12 pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
           <li>

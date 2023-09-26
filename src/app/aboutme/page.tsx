@@ -37,17 +37,17 @@ export default function AboutMe(props: AboutMeProps) {
           </span>
         </a>
         <div className="flex lg:row-start-1 row-start-2 col-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
-          <a href="/capacities">
+          <a href="capacities">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
             </button>
           </a>
-          <a href="/projects">
+          <a href="projects">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Projects
             </button>
           </a>
-          <a href="/aboutme">
+          <a href="aboutme">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               About me
             </button>
