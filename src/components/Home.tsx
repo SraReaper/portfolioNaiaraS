@@ -20,17 +20,17 @@ export default function Home(props: HomeProps) {
           </span>
         </Link>
         <div className="flex lg:row-start-1 row-start-2 col-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
-          <Link href="/capacities">
+          <Link href="capacities">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
             </button>
           </Link>
-          <Link href="/projects">
+          <Link href="projects">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Projects
             </button>
           </Link>
-          <Link href="/aboutme">
+          <Link href="aboutme">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               About me
             </button>
