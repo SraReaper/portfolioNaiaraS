@@ -78,7 +78,7 @@ export default function AboutMe(props: AboutMeProps) {
       <section className="grid grid-cols-[600px] pt-[60px] md:pt-[0px] justify-center gap-5">
         <div className="grid grid-column justify-center text-center place-items-center relative bottom-12">
           <img
-            src="assets/imgs/black.png"
+            src="/assets/imgs/black.png"
             alt="1"
             className="rounded overflow-hidden"
           />

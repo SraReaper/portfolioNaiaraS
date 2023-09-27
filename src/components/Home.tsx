@@ -9,17 +9,17 @@ interface HomeProps {}
 export default function Home(props: HomeProps) {
   return (
     <header>
-      <main className="md:flex lg:grid lg:grid-cols-[repeat(3,1fr)] max-[552px]:grid-rows-2 max-[552px]:grid gap-[20px] pb-[20px] md:gap-0 md:justify-between flex flex-wrap">
+      <main className="flex lg:grid lg:grid-cols-[repeat(3,1fr)] max-[552px]:grid-rows-2 max-[552px]:grid gap-[30px] pb-[20px] md:gap-0  md:justify-between flex-wrap">
         <Link
           href="/"
-          className="row-start-1 row-end-2 font-serif font-bold lg:text-4xl text-3xl text-secondary "
+          className="col-start-2 row-start-1 md:col-start-1 md:row-start-1 md:row-end-2 font-serif font-bold lg:text-4xl text-3xl text-secondary "
         >
           Naiara{' '}
           <span className="font-serif font-bold lg:text-4xl text-3xl text-primary ">
             S.
           </span>
         </Link>
-        <div className="flex lg:row-start-1 row-start-2 col-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
+        <div className="flex col-start-2 lg:row-start-1 row-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
           <Link href="capacities">
             <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
@@ -36,7 +36,7 @@ export default function Home(props: HomeProps) {
             </button>
           </Link>
         </div>
-        <ul className="lg:ml-auto row-start-1 row-end-1 relative flex ml-auto col-start-3 w-max md:w-auto md:flex-col xl:p-4 p-2 xl:pb-12 pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
+        <ul className="lg:ml-auto row-end-1 col-start-2 md:row-start-1 relative flex ml-auto md:col-start-3 w-max md:w-auto md:flex-col xl:p-4 p-2 xl:pb-12 pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
           <li>
             <a href="https://github.com/SraReaper">
               <GithubIcon />
@@ -90,7 +90,7 @@ export default function Home(props: HomeProps) {
       <div className=" lg:flex grid grid-cols-1 grid-rows-none gap-10 pt-[80px] lg:mt-[80px] mb-0 lg:pt-[20px] xl:pt-[60px]  xl:justify-start lg:max-w-max justify-center">
         <span className="lg:bg-black w-32 h-72 md:absolute 2xl:-bottom-[170px] lg:-bottom-[170px] xl:-bottom-[170px] left-0 md:-z-10 mb-[130px] hidden lg:block"></span>
         <img
-          src="assets/imgs/code.png"
+          src="/assets/imgs/code.png"
           alt="imagem ilustrativa"
           className="w-[800px] sm:w-[600px] col-start-1 row-start-1 justify-center mx-auto"
           width={600}
@@ -111,9 +111,9 @@ export default function Home(props: HomeProps) {
         </span>
       </div>
 
-      <footer className=" text-center bg-transparent mb-12 xl:mt-[80px] mt-16 lg:mb-0 pt-0 lg:pb-0 lg:pt-[100px]  xl:pt-[0px]">
-        <span className="bg-bg2 w-full lg:-bottom-[390px] xl:h-[480px] h-[460px] absolute  xl:-bottom-[390px] left-0 -z-20 hidden lg:block"></span>
-        <p className=" lg:pt-[0px] lg:pb-[40px] xl:pt-[40px] pt-[0px]  font-sans font-bold md:text-base text-xs text-secondary">
+      <footer className="text-center bg-transparent mb-12 mb-0 xl:mt-[80px] mt-16 lg:mb-0 pt-0 lg:pb-0 lg:pt-[100px]  xl:pt-[0px]">
+        <span className="bg-bg2 w-full lg:-bottom-[390px] xl:h-[380px] h-[460px] absolute  xl:-bottom-[290px] left-0 -z-20 hidden lg:block"></span>
+        <p className=" lg:pt-[300px] lg:pb-[40px] xl:pt-[170px]  pt-[0px]  font-sans font-bold md:text-base text-xs text-secondary">
           © 2023 Naiara S. All rights reserved.
         </p>
       </footer>
