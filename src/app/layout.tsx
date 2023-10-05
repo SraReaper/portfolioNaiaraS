@@ -19,7 +19,9 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className="w-100vh bg-bg1 mt-16 mb-0 mx-10 md:mx-20">{children}</body>
+      <body className="w-100vh bg-bg1  mt-[40px] sm:mt-16 mb-0 mx-[10px] sm:mx-20 ">
+        {children}
+      </body>
     </html>
   );
 }
