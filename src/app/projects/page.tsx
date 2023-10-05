@@ -9,34 +9,34 @@ interface ProjectsProps {}
 export default function Projects(props: ProjectsProps) {
   return (
     <header>
-      <main className="md:flex lg:grid lg:grid-cols-[repeat(3,1fr)] max-[552px]:grid-rows-2 max-[552px]:grid gap-[20px] pb-[20px] md:gap-0 md:justify-between flex flex-wrap">
+      <main className="grid grid-cols gap-6 md:grid-cols-[repeat(3, 1fr)] max-[552px]:grid-rows-2 max-[552px]:grid pb-[60px] md:pb-[0px] sm:gap-6 justify-center md:justify-normal md:gap-0">
         <Link
           href="/"
-          className="row-start-1 row-end-2 font-serif font-bold lg:text-4xl text-3xl text-secondary "
+          className=" 2xl:mx-auto text-center md:text-start col-start-2 row-start-0 md:col-end-1 md:row-start-1 font-serif font-bold sm:text-4xl text-3xl text-secondary "
         >
           Naiara{' '}
-          <span className="font-serif font-bold lg:text-4xl text-3xl text-primary ">
+          <span className="font-serif font-bold sm:text-4xl text-3xl text-primary ">
             S.
           </span>
         </Link>
-        <div className="flex lg:row-start-1 row-start-2 col-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
+        <div className="flex col-start-2 md:row-start-1 row-start-2 pt-[0px] content-center gap-3 xl:gap-5 sm:p-0 md:mx-0 lg:pl-[60px] xl:pl-0 xl:mx-auto">
           <Link href="capacities">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer sm:text-[12px] md:text-[14px] xl:text-base  text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
             </button>
           </Link>
           <Link href="projects">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer xl:text-base md:text-[14px] sm:text-[12px] text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Projects
             </button>
           </Link>
           <Link href="aboutme">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer md:text-[14px] xl:text-base sm:text-[12px] text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               About me
             </button>
           </Link>
         </div>
-        <ul className="lg:ml-auto row-start-1 row-end-1 relative flex ml-auto col-start-3 w-max md:w-auto md:flex-col xl:p-4 p-2 xl:pb-12 pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
+        <ul className="2xl:mx-auto hidden md-block md:mx-auto lg:mx-0 lg:ml-auto col-end-3 row-start-3 md:row-start-1 relative md:flex md:ml-auto md:col-start-3 w-max md:w-auto md:flex-col xl:p-4 sm:p-2 xl:pb-12 pb-0 md:pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
           <li>
             <a href="https://github.com/SraReaper">
               <GithubIcon />
