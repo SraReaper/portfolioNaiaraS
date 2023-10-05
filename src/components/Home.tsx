@@ -9,34 +9,34 @@ interface HomeProps {}
 export default function Home(props: HomeProps) {
   return (
     <header>
-      <main className="flex lg:grid lg:grid-cols-[repeat(3,1fr)] max-[552px]:grid-rows-2 max-[552px]:grid gap-[30px] pb-[20px] md:gap-0  md:justify-between flex-wrap">
+      <main className="grid grid-cols gap-6 md:grid-cols-[repeat(3, 1fr)] max-[552px]:grid-rows-2 max-[552px]:grid pb-[60px] md:pb-[0px] sm:gap-6 justify-center md:justify-normal md:gap-0">
         <Link
           href="/"
-          className="col-start-2 row-start-1 md:col-start-1 md:row-start-1 md:row-end-2 font-serif font-bold lg:text-4xl text-3xl text-secondary "
+          className=" text-center md:text-start col-start-2 row-start-0 md:col-end-1 md:row-start-1 font-serif font-bold sm:text-4xl text-3xl text-secondary "
         >
           Naiara{' '}
-          <span className="font-serif font-bold lg:text-4xl text-3xl text-primary ">
+          <span className="font-serif font-bold sm:text-4xl text-3xl text-primary ">
             S.
           </span>
         </Link>
-        <div className="flex col-start-2 lg:row-start-1 row-start-2 content-center gap-3 xl:gap-5 p-0 mx-auto">
+        <div className="flex col-start-2 md:row-start-1 row-start-2 pt-[0px] content-center gap-3 xl:gap-5 sm:p-0 md:mx-0 lg:pl-[60px] xl:pl-0 xl:mx-auto">
           <Link href="capacities">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer sm:text-[12px] md:text-[14px] xl:text-base  text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Capacities
             </button>
           </Link>
           <Link href="projects">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer xl:text-base md:text-[14px] sm:text-[12px] text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               Projects
             </button>
           </Link>
           <Link href="aboutme">
-            <button className=" p-2 cursor-pointer lg:text-base xl:text-lg text-xs text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
+            <button className=" p-2 cursor-pointer md:text-[14px] xl:text-base sm:text-[12px] text-[10px] text-secondary font-bold font-sans bg-transparent border border-solid border-x-secondary rounded hover:bg-bg2 ">
               About me
             </button>
           </Link>
         </div>
-        <ul className="lg:ml-auto row-end-1 col-start-2 md:row-start-1 relative flex ml-auto md:col-start-3 w-max md:w-auto md:flex-col xl:p-4 p-2 xl:pb-12 pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
+        <ul className="hidden md-block md:mx-auto lg:mx-0 lg:ml-auto col-end-3 row-start-3 md:row-start-1 relative md:flex md:ml-auto md:col-start-3 w-max md:w-auto md:flex-col xl:p-4 sm:p-2 xl:pb-12 pb-0 md:pb-8 bg-transparent md:border md:border-solid border-x-secondary md:rounded gap-1 m-0 ">
           <li>
             <a href="https://github.com/SraReaper">
               <GithubIcon />
@@ -58,62 +58,63 @@ export default function Home(props: HomeProps) {
         </ul>
       </main>
 
-      <div className="flex mt-[60px] pb-0">
+      <div className="flex mt-0 sm:mt-[10px] pb-0">
         <h1
-          className="xl:max-w-7xl lg:max-w-4xl text-center mx-auto pt-0
-         lg:text-6xl font-normal font-sans text-secondary capitalize text-3xl max-w-xl"
+          className="xl:max-w-6xl 2xl:max-w-7xl md:max-w-lg lg:max-w-3xl text-center mx-auto pt-0 xl:text-6xl
+         md:text-5xl sm:text-4xl font-normal font-sans text-secondary capitalize text-3xl max-w-xl"
         >
           Innovative{' '}
           <span
             className=" text-center mx-auto pt-0
-         lg:text-3xl xl:text-4xl font-normal font-serif text-primary uppercase text-xl max-w-xl"
+         sm:text-2xl md:text-3xl xl:text-4xl font-normal font-serif text-primary uppercase text-xl max-w-xl"
           >
             UI/UX Designer
           </span>{' '}
           &{'  '}
           <span
             className=" text-center mx-auto  pt-0
-         lg:text-3xl xl:text-4xl font-normal font-serif text-primary uppercase  text-xl max-w-xl"
+            sm:text-2xl md:text-3xl xl:text-4xl font-normal font-serif text-primary uppercase  text-xl max-w-xl"
           >
             Frontend Developer
           </span>{' '}
           who has a passion for{' '}
           <span
             className=" text-center mx-auto pt-0
-         lg:text-3xl xl:text-4xl font-normal font-serif text-primary uppercase text-xl max-w-xl"
+            sm:text-2xl xl:text-4xl md:text-3xl font-normal font-serif text-primary uppercase text-xl max-w-xl"
           >
             creating.
           </span>
         </h1>
       </div>
 
-      <div className=" lg:flex grid grid-cols-1 grid-rows-none gap-10 pt-[80px] lg:mt-[80px] mb-0 lg:pt-[20px] xl:pt-[60px]  xl:justify-start lg:max-w-max justify-center">
-        <span className="lg:bg-black w-32 h-72 md:absolute 2xl:-bottom-[170px] lg:-bottom-[170px] xl:-bottom-[170px] left-0 md:-z-10 mb-[130px] hidden lg:block"></span>
+      <div className=" lg:flex grid grid-cols-1 grid-rows-none gap-10 pt-[40px] lg:pt-[20px] lg:mt-[80px] mb-0  xl:pt-[60px]  xl:justify-start lg:max-w-max justify-center">
+        <span className="lg:bg-black w-32 h-72 md:absolute lg:-bottom-[180px] xl:-bottom-[160px] left-0 md:-z-10 mb-[130px] hidden lg:block 2xl:hidden"></span>
+        <span className="2xl:bg-black w-40 h-72 2xl:absolute 2xl:-bottom-[165px] left-0 md:-z-10 mb-[130px] hidden 2xl:block "></span>
         <img
           src="/assets/imgs/code.png"
           alt="imagem ilustrativa"
-          className="w-[800px] sm:w-[600px] col-start-1 row-start-1 justify-center mx-auto"
+          className="w-[600px] sm:w-[600px] col-start-1 row-start-1 justify-center mx-auto 2xl:relative 2xl:left-[80px] "
           width={600}
           style={{ objectFit: 'contain' }}
         />
         <div
           className="row-end-1 col-start-1
-         justify-center  pb-[0px] pt-[20px] lg:p-2 xl:relative lg:left-72"
+         justify-center pb-[0px] sm:pt-[20px] lg:p-2 xl:relative lg:left-72"
         >
-          <h2 className=" font-sans mb-0 mx-auto font-normal xl:text-3xl text-xl max-w-xs sm:max-w-lg text-center capitalize text-secondary lg:max-w-md md:text-center">
+          <h2 className=" font-sans mb-0 mx-auto font-normal xl:text-2xl text-base md:text-xl sm:max-w-xl xl:max-w-xs xl:relative xl:right-[140px] 2xl:max-w-md 2xl:right-[20px] text-center capitalize text-secondary lg:max-w-md md:text-center">
             I develop interfaces thinking about the best user experience. In
             addition to being visually interesting, technological and
             harmonious.
           </h2>
         </div>
-        <span className="absolute xl:right-[130px] xl:bottom-[35px] lg:bottom-[15px] lg:right-[60px] hidden lg:block">
+        <span className="absolute 2xl:bottom-[75px] xl:right-[40px] xl:bottom-[50px] lg:bottom-[95px] lg:right-[0px] hidden lg:block">
           <DetalheIcon />
         </span>
       </div>
 
-      <footer className="text-center bg-transparent mb-12 mb-0 xl:mt-[80px] mt-16 lg:mb-0 pt-0 lg:pb-0 lg:pt-[100px]  xl:pt-[0px]">
-        <span className="bg-bg2 w-full lg:-bottom-[390px] xl:h-[380px] h-[460px] absolute  xl:-bottom-[290px] left-0 -z-20 hidden lg:block"></span>
-        <p className=" lg:pt-[300px] lg:pb-[40px] xl:pt-[170px]  pt-[0px]  font-sans font-bold md:text-base text-xs text-secondary">
+      <footer className="text-center bg-transparent mb-12 xl:mt-[80px] mt-16 lg:mb-0 pt-0 lg:pb-0 lg:pt-[50px]  xl:pt-[0px]">
+        <span className="bg-bg2 w-full lg:-bottom-[270px] lg:h-[420px] 2xl:h-[480px] xl:h-[440px] h-[460px] absolute 2xl:-bottom-[345px] xl:-bottom-[330px] left-0 -z-20 hidden lg:block"></span>
+        <p className=" lg:pt-[0px] m-0 lg:pb-[30px] 2xl:pt-[70px] xl:pt-[40px]  pt-[0px]  font-sans font-bold md:text-base text-xs text-secondary">
           © 2023 Naiara S. All rights reserved.
         </p>
       </footer>
